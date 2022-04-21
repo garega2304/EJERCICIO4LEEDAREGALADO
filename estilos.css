@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #e6e6e6;
+
+}
+nav{
+    width: 120%;
+    height: 70px;
+    max-width: 1000px;
+    margin: 20px auto;
+    background:#D6afdc;
+    overflow: hidden;
+}
+ nav ul{
+     list-style: none;
+
+}
+nav ul li{
+    float:left
+    
+}
+
+nav ul li a{
+    padding: 20px; 
+    margin: 10px;   
+    display: inline-block;
+    color:#fff;
+    text-decoration: none;
+    
+
+}
+nav ul li a:hover{
+    background: rgb(66, 66, 214);
+    
+}
+
+nav ul li a:active{
+    background: rgb(226, 115, 95);
+
+}
